@@ -1,6 +1,10 @@
 :root {
   --color-background-main: #000;
   --color-text-main: #fff;
+  --color-accent: #F98001;
+  --gradient-accent: linear-gradient(180deg, rgba(245, 197, 21, 1) 0%, rgba(250, 128, 1, 1) 100%);
+  --color-text-opacity: rgba(255, 255, 255, 0.5);
+  --main-transition: .3s;
 }
 
 body {
@@ -9,4 +13,22 @@ body {
   line-height: 1.2;
   color: var(--color-text-main);
   font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 15px;
 }

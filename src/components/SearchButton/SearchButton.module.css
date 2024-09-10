@@ -1,0 +1,23 @@
+.search-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  background-color: transparent;
+  border-radius: 50%;
+  transition: var(--main-transition);
+  margin-left: auto;
+}
+
+.search-btn:hover {
+  background-color: var(--color-text-opacity);
+}
+
+.search-btn svg {
+  transition: var(--main-transition);
+}
+
+.search-btn:hover svg {
+  stroke: var(--color-text-main);
+}

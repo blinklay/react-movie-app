@@ -1,0 +1,7 @@
+.enter-button {
+  font-size: 21px;
+  font-weight: 600;
+  background: var(--gradient-accent);
+  padding: 8px 22px;
+  border-radius: 6px;
+}
