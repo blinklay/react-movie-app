@@ -1,0 +1,12 @@
+:root {
+  --color-background-main: #000;
+  --color-text-main: #fff;
+}
+
+body {
+  background-color: var(--color-background-main);
+  font-family: "Open Sans", system-ui;
+  line-height: 1.2;
+  color: var(--color-text-main);
+  font-size: 18px;
+}
