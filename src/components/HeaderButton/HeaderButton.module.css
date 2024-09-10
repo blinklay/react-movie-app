@@ -1,0 +1,16 @@
+.header-button {
+  font-size: 24px;
+
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-weight: 600;
+}
+
+.header-button svg {
+  transition: var(--main-transition);
+}
+
+.header-button:hover svg {
+  stroke: var(--color-accent);
+}
